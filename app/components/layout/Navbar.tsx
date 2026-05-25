@@ -1,11 +1,23 @@
+"use client";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
 import MobileMenu from "./MobileMenu";
 import Logo from "./Logo";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 50);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+    
   return (
-    <nav className="relative">
+        <nav className={`sticky top-0 z-30 transition-all duration-300 ${scrolled
+            ? "bg-white"
+            : "bg-[#F5F7FA]"
+        }`}>
       <div className="container mx-auto py-4 px-4">
         <div className="flex items-center justify-between">
           <Logo />

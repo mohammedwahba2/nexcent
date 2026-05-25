@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Logo() {
     return (
         <Link href="/">
-            <svg  className="w-24 md:w-40 h-auto" viewBox="0 0 155 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  className="w-30 md:w-40 h-auto" viewBox="0 0 155 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18.7863 13.1341L13.3954 22.3669L8.00448 13.1341H18.7863ZM20.2305 12.3088H6.55444L13.3954 24L20.2305 12.3088Z" fill="#263238"/>
                 <path d="M28.1591 1.65038L33.55 10.8833H22.7681L28.1591 1.65038ZM28.1591 0L21.3181 11.6912H35L28.1591 0Z" fill="#263238"/>
                 <path d="M0 0L5.7359 10.3409L12.0038 0.259661L0 0Z" fill="#4CAF4F"/>
