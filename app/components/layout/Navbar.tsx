@@ -14,8 +14,8 @@ export default function Navbar() {
       }, []);
     
   return (
-        <nav className={`sticky top-0 z-30 transition-all duration-300 ${scrolled
-            ? "bg-white"
+        <nav className={`sticky top-0 z-30 transition-all duration-300 bg-[#F5F7FA] ${scrolled
+            ? "bg-white "
             : "bg-[#F5F7FA]"
         }`}>
       <div className="container mx-auto py-4 px-4">
