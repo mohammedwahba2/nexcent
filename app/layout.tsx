@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Nexcent — Membership Management Platform",
   description:
     "Nexcent helps membership organisations, national associations, and clubs manage their entire community in a single system. Automate renewals, payments.",
-  metadataBase: new URL("https://nexcent.com"),
+  metadataBase: new URL("https://nexcent-ochre.vercel.app/"),
   alternates: {
     canonical: "/",
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Nexcent — Membership Management Platform",
     description:
       "Manage your entire community in a single system. Full automation of membership renewals and payments.",
-    url: "https://nexcent.com",
+    url: "https://nexcent-ochre.vercel.app/",
     siteName: "Nexcent",
     images: [
       {

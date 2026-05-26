@@ -18,7 +18,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Nexcent",
-            url: "https://nexcent.com",
+            url: "https://nexcent-ochre.vercel.app/",
             description:
               "Membership management platform for organisations, associations, and clubs.",
             publisher: {
@@ -26,7 +26,7 @@ export default function Home() {
               name: "Nexcent",
               logo: {
                 "@type": "ImageObject",
-                url: "https://nexcent.com/images/logo.svg",
+                url: "https://nexcent-ochre.vercel.app//images/logo.svg",
               },
             },
             datePublished: "2024-01-01",

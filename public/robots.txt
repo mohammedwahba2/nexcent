@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nexcent.com/sitemap.xml
+Sitemap: https://nexcent-ochre.vercel.app//sitemap.xml
