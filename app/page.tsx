@@ -1,4 +1,6 @@
+import Blog from "./components/sections/Blog";
 import Clients from "./components/sections/Clients";
+import CTA from "./components/sections/CTA";
 import Features from "./components/sections/Features";
 import Hero from "./components/sections/Hero";
 import Stats from "./components/sections/Stats";
@@ -9,6 +11,30 @@ import TextImageSection from "./components/sections/TextImageSection";
 export default function Home() {
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Nexcent",
+            url: "https://nexcent.com",
+            description:
+              "Membership management platform for organisations, associations, and clubs.",
+            publisher: {
+              "@type": "Organization",
+              name: "Nexcent",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://nexcent.com/images/logo.svg",
+              },
+            },
+            datePublished: "2024-01-01",
+            dateModified: new Date().toISOString().split("T")[0],
+          }),
+        }}
+      />
+
       <Hero />
       <Clients />
       <Features />
@@ -28,6 +54,8 @@ export default function Home() {
           reverse={false}
         />
         <Testimonial />
+        <Blog />
+        <CTA />
     </main>
   );
 }
