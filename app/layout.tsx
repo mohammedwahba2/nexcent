@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Nexcent — Membership Management Platform",
     description:
       "Manage your entire community in a single system. Full automation of membership renewals and payments.",
-    images: ["/images/og-image.png"],
+    images: ["/opengraph-image"],
   },
 };
 
