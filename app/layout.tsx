@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Nexcent",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Nexcent — Membership Management Platform",
