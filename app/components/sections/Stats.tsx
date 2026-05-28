@@ -6,7 +6,7 @@ import { useInView } from "@/app/hooks/useInView";
 
 const stats = [
   { icon: "/images/icons/members.svg", value: 2245341, label: "Members" },
-  { icon: "/images/icons/clubs.svg", value: 46328, label: "Clubs" },
+  { icon: "/images/icons/events.svg", value: 46328, label: "Clubs" },
   { icon: "/images/icons/events.svg", value: 828867, label: "Event Bookings" },
   { icon: "/images/icons/payments.svg", value: 1926436, label: "Payments" },
 ];

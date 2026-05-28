@@ -8,7 +8,7 @@ export default function CTA() {
   const { ref, inView } = useInView();
 
   return (
-    <section className="py-8 bg-[#F5F7FA]">
+    <section className="py-10 bg-[#F5F7FA]">
       <div
         ref={ref}
         className={`container mx-auto px-6 text-center ${
