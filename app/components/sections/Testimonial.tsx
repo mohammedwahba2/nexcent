@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "@/app/hooks/useInView";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 
 const clients = [
@@ -41,8 +42,16 @@ export default function Testimonial() {
                   className="h-7 w-auto object-contain opacity-50 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300"
                 />
               ))}
-              <a href="#" className="text-primary font-medium text-sm hover:underline whitespace-nowrap">
-                Meet all customers →
+              <a
+                href="#"
+                className="text-primary font-medium text-sm hover:text-primary-dark transition-colors whitespace-nowrap inline-flex items-center gap-2 group"
+              >
+                Meet all customers
+
+                <ArrowRight
+                  size={18}
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                />
               </a>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "./Logo";
+import { ArrowRight } from "lucide-react";
 
 const company = ["About us", "Blog", "Contact us", "Pricing", "Testimonials"];
 const support = ["Help center", "Terms of service", "Legal", "Privacy policy", "Status"];
@@ -56,7 +57,12 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Stay up to date</h4>
             <div className="flex overflow-hidden rounded-md border border-white/10">
               <input type="email" placeholder="Your email address" className="flex-1 bg-white/5 text-white text-sm px-4 py-2.5 outline-none placeholder:text-gray-500" />
-              <button className="bg-primary hover:bg-primary-dark px-4 transition-colors duration-300">&#8594;</button>
+              <button className="bg-primary hover:bg-primary-dark p-4 rounded-md transition-all duration-300 flex items-center justify-center group">
+                <ArrowRight
+                  size={20}
+                  className="text-white transition-transform duration-300 group-hover:translate-x-1"
+                />
+              </button>
             </div>
           </div>
         </div>

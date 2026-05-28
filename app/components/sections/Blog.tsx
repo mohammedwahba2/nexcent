@@ -1,6 +1,7 @@
 "use client";
 
 import { useInView } from "@/app/hooks/useInView";
+import { ArrowRight } from "lucide-react";
 
 
 const posts = [
@@ -49,11 +50,17 @@ export default function Blog() {
                 {post.title}
               </p>
               
-               < a href={post.href}
-                className="text-primary font-semibold text-sm hover:text-primary-dark transition-colors flex items-center gap-1"
+              <a
+                href={post.href}
+                className="text-primary font-semibold text-sm hover:text-primary-dark transition-colors flex items-center gap-2 group"
               >
-                Readmore →
-              </a>
+                Read More
+
+                <ArrowRight
+                  size={18}
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                />
+              </a>  
             </div>
           ))}
         </div>
