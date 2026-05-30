@@ -5,7 +5,12 @@ A modern, minimal landing page for a membership management platform — built wi
 ## Live Demo
 
 [nexcent-ochre.vercel.app](https://nexcent-ochre.vercel.app)
+
 ![Nexcent Preview](https://nexcent-ochre.vercel.app/images/preview.png)
+
+## Design
+
+[Figma Design](https://www.figma.com/design/ljHuDyDTKT8LloJbcAXSrg/Minimal-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=0-1&t=6pOMzJn2JHZ8QJNA-0)
 
 
 ## Tech Stack
