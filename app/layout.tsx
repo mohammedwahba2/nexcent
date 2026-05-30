@@ -1,10 +1,10 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
-
 
 export const metadata: Metadata = {
   title: "Nexcent — Membership Management Platform",
@@ -59,6 +59,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+      <Analytics />
       </body>
     </html>
   );
